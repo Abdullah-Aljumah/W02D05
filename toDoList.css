@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+.wrapper{
+    width: 22%;
+    height: 100%;
+    border-radius: 5%;
+    background-color: rgba(22, 22, 22, 0.534);
+    margin: 150px 10px;
+    box-shadow: 0px 0px 177px 74px rgba(0,0,0,0.0);
+    -webkit-box-shadow: 0px 0px 177px 74px rgba(0,0,0,0.82);
+    -moz-box-shadow: 0px 0px 177px 74px rgba(0,0,0,0.82);
+    
+}
+ul {
+    margin: 5px;
+    list-style: none;
+    
+}
+    
+
+li p {
+    display: inline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: '2rem';
+    color: rgb(255, 255, 255);
+
+
+}
+
+.line {
+    text-decoration: line-through;
+}
+button { 
+    margin-left: 20px;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.input {
+    margin:10px ;
+}
+.clearBtn , .clearBtnComleted{
+    margin-bottom: 20px;
+}
+
+.delete , .update {
+    margin-bottom: 10px;
+}
